@@ -1,0 +1,12 @@
+{
+  "name": "monorepo_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": ["button-react", "littlebutton-vue", "button-svelte", "littlebutton-angular"],
+  "scripts": {
+    "start:react": "yarn workspace button-react dev",
+    "start:svelte": "yarn workspace button-svelte dev"
+  }
+}
